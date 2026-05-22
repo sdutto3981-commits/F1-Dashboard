@@ -1,8 +1,32 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/Vl8Q9G-2)
+# F1 Dashboard 🏎️
 
-# OpenF1 API Documentation
+Benvenuto in **F1 Dashboard**, un'applicazione web interattiva e dinamica sviluppata interamente da zero per esplorare i dati ufficiali del campionato di Formula 1 dal **2023 al 2026**.
+
+Questo progetto rappresenta il risultato del mio impegno autonomo nel superare sfide tecniche di asincronia e manipolazione del DOM, traducendo la mia passione per il motorsport in codice. È una soddisfazione personale e una prova tangibile della mia crescita come sviluppatore frontend.
+
+---
+
+## 🚀 Le Mie Funzionalità
+
+- **Filtri a Cascata:** Navigazione tra Anno, Gran Premio (Meeting) e Sessione specifica.
+- **Meteo della Sessione:** Visualizzazione live di temperature (aria/pista), umidità e presenza di pioggia (🌧️ / ☀️).
+- **Griglia dei Piloti Dinamica:** Le card dei partecipanti cambiano colore in tempo reale adattandosi al colore esadecimale ufficiale del team fornito dall'API.
+- **Dettagli Sessione & Archivio:** Informazioni sugli orari, circuiti e stato dell'evento, più una sezione per consultare i piloti divisi per anno.
+- **Performance Ottimizzate:** Integrazione di un sistema di caching locale in JavaScript (`Map()`) per evitare chiamate API duplicate e rendere l'app velocissima.
+
+### 📁 Struttura dei File del Mio Progetto
+* `index.html` / `assets/html/`: Pagine della Dashboard (`dashBoard.html`, `infoSessione.html`, `piloti.html`).
+* `assets/css/`: Grafica responsiva e font ufficiali F1 (`style.css`, `font.css`).
+* `assets/js/`: Logica a moduli (`api.js` con sistema di cache, `index.js`, `infoSessions.js`, `piloti.js`).
+
+---
+---
+
+# 📖 OpenF1 API Documentation (Original Ref)
 
 ![Grafo delle API di OpenF1 per la pianificazione delle query](Appunti/img1.png)
+
+
 
 ## 1. Car Data
 

@@ -1,0 +1,74 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F1 Dashboard</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+</head>
+<body class="bg-dark text-white">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../../index.html">
+                <img src="../img/f1-logo-red.svg" alt="Logo">
+                F1 Dashboard
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                <a class="nav-link active" href="../../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./piloti.html">Piloti</a>
+                </li>
+                <li class="nav-item">
+                <a class="nav-link" href="./dashBoard.html">Dashboard</a>
+                </li>
+            </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5" id="wrapper">
+        <div class="d-flex justify-content-between align-items-center mb-4 border-bottom pb-3">
+            <div>
+                <h1 id="det-circuit-name" class="f1-bold text-uppercase m-0">---</h1>
+                <p id="det-location" class="text-muted f1-regular m-0">---</p>
+            </div>
+            <img id="det-flag" src="" alt="Bandiera" class="img-fluid" style="width: 80px; border-radius: 4px;">
+        </div>
+
+        <div class="row">
+            <div class="col-md-4 text-center mb-4">
+                <div class="circuit-detail-container p-4" style="background: #15151e; border-radius: 15px;">
+                    <img id="det-circuit-map" src="" alt="Mappa" class="img-fluid" style="filter: invert(1); max-height: 250px;">
+                </div>
+            </div>
+
+            <div class="col-md-8">
+                <div class="table-responsive">
+                    <table class="table table-dark table-hover f1-regular">
+                        <tbody>
+                            <tr><th class="text-danger">SESSION NAME</th><td id="det-session-name">---</td></tr>
+                            <tr><th class="text-danger">SESSION TYPE</th><td id="det-session-type">---</td></tr>
+                            <tr><th class="text-danger">START DATE</th><td id="det-date-start">---</td></tr>
+                            <tr><th class="text-danger">END DATE</th><td id="det-date-end">---</td></tr>
+                            <tr><th class="text-danger">GMT OFFSET</th><td id="det-gmt">---</td></tr>
+                            <tr><th class="text-danger">CIRCUIT KEY</th><td id="det-circuit-key">---</td></tr>
+                            <tr><th class="text-danger">SESSION KEY</th><td id="det-session-key">---</td></tr>
+                            <tr><th class="text-danger">STATUS</th><td id="det-status">---</td></tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+<script src="../js/infoSessions.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

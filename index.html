@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="it">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>F1 Dashboard | Home</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/img/f1-logo-red.svg" alt="Logo" width="60" class="me-2">
+                <span class="fw-bold">F1 DASHBOARD</span>
+            </a>
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto text-uppercase">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/page/piloti.html">Piloti</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="assets/page/dashBoard.html">Dashboard</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <header id="hero-section" class="d-flex align-items-center">
+        <div class="container text-center py-5">
+            <div class="hero-content">
+                <h1 class="display-1 fw-black mb-0">F1 DASHBOARD</h1>
+                <h5 class="text-uppercase tracking-widest mb-4">Developed by <span class="accent-color">Dutto Stefano</span></h5>
+                <p class="lead mb-5 mx-auto opacity-75" style="max-width: 700px;">
+                    Analisi telemetrica in tempo reale, statistiche storiche e monitoraggio live di ogni weekend di gara.
+                </p>
+                <div class="d-grid gap-3 d-sm-flex justify-content-sm-center">
+                    <a href="#features" class="btn btn-f1 btn-lg px-5 text-white">ESPLORA DATI</a>
+                    
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="features" class="py-5 bg-dark">
+        <div class="container py-5">
+            <div class="row g-4 text-center">
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="card-body">
+                            <i class="bi bi-speedometer2 display-4 accent-color mb-3"></i>
+                            <h5 class="card-title text-uppercase">Telemetria Live</h5>
+                            <p class="card-text text-muted">Dati istantanei su velocità, marce e DRS direttamente dai circuiti.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="card-body">
+                            <i class="bi bi-stopwatch display-4 accent-color mb-3"></i>
+                            <h5 class="card-title text-uppercase">Analisi Tempi</h5>
+                            <p class="card-text text-muted">Confronto dei settori e monitoraggio dei gap tra i piloti in tempo reale.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card h-100 border-0 shadow-sm p-4">
+                        <div class="card-body">
+                            <i class="bi bi-pci-card display-4 accent-color mb-3"></i>
+                            <h5 class="card-title text-uppercase">Gestione Gomme</h5>
+                            <p class="card-text text-muted">Monitoraggio delle mescole e analisi del degrado durante ogni stint.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-4">
+              <a href="./assets/page/dashBoard.html" class="btn btn-outline-light btn-lg px-5 col-12">DEMO LIVE</a>
+            </div>
+            
+        </div>
+    </section>
+
+    <section id="stats" class="py-5 bg-dark border-top border-danger border-4">
+        <div class="container text-white">
+            <div class="row text-center gy-4">
+                <div class="col-6 col-md-3 border-end border-secondary">
+                    <h2 class="fw-bold accent-color">20</h2>
+                    <p class="text-uppercase small mb-0">Piloti</p>
+                </div>
+                <div class="col-6 col-md-3 border-end border-secondary">
+                    <h2 class="fw-bold accent-color">10</h2>
+                    <p class="text-uppercase small mb-0">Scuderie</p>
+                </div>
+                <div class="col-6 col-md-3 border-end border-secondary">
+                    <h2 class="fw-bold accent-color">24</h2>
+                    <p class="text-uppercase small mb-0">Gran Premi</p>
+                </div>
+                <div class="col-6 col-md-3">
+                    <h2 class="fw-bold accent-color">REAL</h2>
+                    <p class="text-uppercase small mb-0">Time Data</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-5 bg-black text-white">
+        <div class="container text-center">
+            <p class="mb-3">© 2026 F1 Dashboard Project. Powered by OpenF1 API.</p>
+            <div class="social-links mb-3">
+                <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-github"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-twitter-x"></i></a>
+                <a href="#" class="text-white mx-2 fs-4"><i class="bi bi-linkedin"></i></a>
+            </div>
+            <p class="text-muted small">Questo sito non è affiliato con il gruppo Formula 1.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

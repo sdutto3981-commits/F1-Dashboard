@@ -1,0 +1,209 @@
+@import url('font.css');
+
+:root {
+    --f1-red: #e10600;
+    --f1-black: #15151e;
+    --f1-white: #ffffff;
+    --f1-grey: #38383f;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'F1-Regular', sans-serif ;
+}
+
+#hero-section{
+    display: flex;
+    flex-direction: column;
+    font-family: 'F1-Black';
+    color: var(--f1-white);
+    background-image: url(../img/Hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 800px;
+}
+
+#hero-header{
+    text-align: center;
+    font-style: italic;
+    
+    margin: auto auto;
+}
+
+#hero-header h1{
+    font-size: 48px; 
+}
+
+
+.drivers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.driver-card {
+    background: #15151e;
+    color: white;
+    border-radius: 0 15px 0 15px;
+    border: 1px solid #38383f;
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s;
+}
+
+.team-stripe {
+    height: 5px;
+    width: 100%;
+    background-color: var(--team-color);
+}
+
+.driver-card:hover {
+    border-color: var(--team-color);
+    transform: scale(1.02);
+}
+
+.driver-img-container {
+    background: linear-gradient(to bottom, #1e1e27, #15151e);
+    border-right: 1px solid #38383f;
+}
+
+.driver-name {
+    font-family: 'F1-Bold', sans-serif;
+    font-size: 1.2rem;
+    line-height: 1.2;
+    margin-bottom: 2px;
+}
+
+.driver-number {
+    font-family: 'F1-Black', sans-serif;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.1); 
+    position: absolute;
+    right: 10px;
+    bottom: 0;
+}
+
+.team-name {
+    font-family: 'F1-Regular', sans-serif;
+    font-size: 0.85rem;
+    color: #949498;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.sessions-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.f1-session-card {
+    background: #15151e;
+    color: white;
+    border: 1px solid #38383f;
+    border-radius: 0 15px 0 15px; /* Angoli tagliati */
+    position: relative;
+    overflow: hidden;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+    min-height: 160px;
+}
+
+.f1-session-card:hover {
+    transform: translateY(-5px);
+    border-color: #e10600;
+}
+
+
+.f1-session-card::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 5px;
+    background-color: #e10600;
+}
+
+.circuit-container {
+    background: linear-gradient(135deg, #1e1e27 0%, #15151e 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.circuit-svg {
+    filter: invert(1);
+    max-height: 100px;
+    width: auto;
+    opacity: 0.9;
+}
+
+.session-title {
+    font-family: 'F1-Bold', sans-serif;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
+
+.session-info {
+    font-family: 'F1-Regular', sans-serif;
+    color: #949498;
+    font-size: 0.85rem;
+}
+
+.btn-f1-details{
+    background-color: var(--f1-red);
+    color: white;
+    border: none;
+    padding: 0px 20px;
+    text-align: center;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.flag-mini {
+    width: 25px;
+    height: auto;
+    border-radius: 2px;
+    vertical-align: middle;
+}
+
+#font-1{
+ font-family: 'Apax-Medium';   
+}
+#font-2{
+ font-family: 'Apax-Regular';   
+}
+#font-3{
+ font-family: 'Apax-Superbold';   
+}
+#font-4{
+ font-family: 'F1-Black';   
+}
+#font-5{
+ font-family: 'F1-Bold';   
+}
+#font-6{
+ font-family: 'F1-Regular';   
+}
+#font-7{
+ font-family: 'KH-Interference';   
+}
+#font-8{
+ font-family: 'Titillium-Bold';   
+}
+#font-9{
+ font-family: 'Titillium-Regular';   
+}
+#font-10{
+ font-family: 'Titillium-SemiBold';   
+}

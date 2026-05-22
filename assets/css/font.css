@@ -1,0 +1,73 @@
+/* --- FAMIGLIA FORMULA 1 UFFICIALE --- */
+@font-face {
+    font-family: 'F1-Regular';
+    src: url('../font/Formula1-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'F1-Bold';
+    src: url('../font/Formula1-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'F1-Black';
+    src: url('../font/Formula1-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* --- FAMIGLIA APAX (TAG HEUER / RED BULL STYLE) --- */
+@font-face {
+    font-family: 'Apax-Regular';
+    src: url('../font/Apax-TAG-Heuer-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apax-Medium';
+    src: url('../font/Apax-TAG-Heuer-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apax-Superbold';
+    src: url('../font/Apax-TAG-Heuer-Superbold.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+/* --- FAMIGLIA TITILLIUM WEB --- */
+@font-face {
+    font-family: 'Titillium-Regular';
+    src: url('../font/TitilliumWeb-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium-SemiBold';
+    src: url('../font/TitilliumWeb-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Titillium-Bold';
+    src: url('../font/TitilliumWeb-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+/* --- ALTRI FONT SPECIFICI --- */
+@font-face {
+    font-family: 'KH-Interference';
+    src: url('../font/KHInterferenceF1-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
